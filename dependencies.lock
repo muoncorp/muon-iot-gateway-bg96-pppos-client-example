@@ -1,0 +1,21 @@
+dependencies:
+  espressif/esp_modem:
+    component_hash: d8c4c84e1bddf898e2167be1d264429a3c3e72a0b622da97e6338ca8c2e672ad
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.2.1
+  idf:
+    source:
+      type: idf
+    version: 5.5.0
+direct_dependencies:
+- espressif/esp_modem
+- idf
+manifest_hash: d10338ed4cab9404433eea33fb6de726c6e1966071f6a4b21c97be850df768c1
+target: esp32
+version: 2.0.0
